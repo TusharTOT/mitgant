@@ -1,0 +1,145 @@
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+.custom-modal-body {
+  border-top: 5px solid #3d70b2;
+  &.error {
+    border-top: 5px solid #e71d32;
+  }
+
+  h3 {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 35px;
+    color: #48555f;
+  }
+  p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #152935;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 23px;
+    right: 14px;
+  }
+  .activemodal {
+    fill: black;
+  }
+  .modal-progressbar {
+    .progress {
+      border-radius: 50rem;
+      .progress-bar {
+        background-color: #3d70b2;
+        border-radius: 50rem;
+      }
+    }
+  }
+  .btn-danger {
+    background-color: #e71d32;
+    border-radius: 0;
+    padding: 10px 51px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .step-dot-section {
+    width: calc(100% - 228px);
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    @media (max-width: 767px) {
+      width: 100%;
+      text-align: center;
+    }
+    .steps-dot {
+      height: 10px;
+      width: 10px;
+      display: inline-block;
+      margin-left: 8px;
+      background-color: #d0d4d7;
+      border-radius: 50%;
+      cursor: pointer;
+
+      &:first-child {
+        margin-left: 0;
+      }
+      &.active {
+        background-color: #152935;
+      }
+    }
+  }
+}
+
+.custom-modal-footer {
+  background: #f0f3f6;
+  border: none;
+  .btn-primary {
+    background: #3d70b2;
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    padding: 14px 24px;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #376096;
+      border-color: #376096;
+    }
+  }
+  .btn-secondary {
+    background: none;
+    border: 2px solid #3d70b2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #3d70b2;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 13px 22px;
+    border-radius: 0;
+    margin-right: 20px;
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: #376096;
+    }
+  }
+  .skip-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #3d70b2;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+      color: #376096;
+    }
+  }
+  p {
+    color: #3d70b2;
+  }
+}
+.modal-content-section {
+  @media (max-width: 767px) {
+    flex-direction: column;
+    h3,
+    p {
+      text-align: center;
+    }
+  }
+}
+.custom-stp-modal {
+  @media (min-width: 768px) {
+    .modal-dialog {
+      max-width: 718px;
+    }
+  }
+}

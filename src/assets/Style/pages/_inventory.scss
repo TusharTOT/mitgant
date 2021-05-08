@@ -1,0 +1,25 @@
+.inventory {
+    .custom-border {
+        top: 63px;
+        position: absolute;
+        left: 2%;
+        right: 2%;
+        border-bottom: 1px solid #DFE3E6;
+    }
+    .drift-chart-heading{
+        font-weight: 300;
+        color: #5A6872;
+    }
+    .tabs{
+        position: relative;
+        
+        .nav-item{
+            .nav-link{
+                color: #5A6872;
+                &.active{
+                    color: #3D70B2;
+                }
+            }
+        }
+    }
+}

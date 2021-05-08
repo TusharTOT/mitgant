@@ -1,0 +1,29 @@
+$weight400: 400;
+$textdark: #152935;
+@import "pages/_login";
+@import "pages/_register";
+@import "pages/common";
+@import "pages/_awslinking";
+@import "layout/_mainsidebar";
+@import "layout/_contentarea";
+@import "layout/_topbar";
+@import "pages/dashboard";
+@import "pages/_assessment";
+@import "pages/_modals";
+@import "pages/_alertlist";
+@import "pages/_inventory";
+@import "pages/integration";
+@import "pages/_accountdetails";
+@import "pages/_setting.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #030405;
+  font-size: 14px;
+  background: #f5f7fa;
+}
+
+.pointer {
+  cursor: pointer;
+}

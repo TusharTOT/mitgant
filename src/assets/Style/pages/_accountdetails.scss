@@ -1,0 +1,267 @@
+.rightcontent {
+  .middle {
+    .col-md-9,
+    .col-md-3 {
+      padding-right: 15px !important;
+      padding-left: 0;
+    }
+    .heading {
+      b {
+        font-size: 28px;
+        padding-bottom: 15px;
+        display: block;
+        color: #152935;
+        font-weight: normal;
+      }
+    }
+    .card {
+      border-radius: 0;
+      border: 1px solid #dfe3e6;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.01);
+      .date-section {
+        padding: 20px 20px !important;
+        .details {
+          table {
+            th {
+              padding-bottom: 30px;
+            }
+            td {
+              color: #5a6872;
+              font-weight: normal;
+              font-size: 14px;
+              position: relative;
+              padding: 10px 0;
+              .blue-dot {
+                border: 1px solid #3d70b2;
+                background-color: #3d70b2;
+                width: 20px;
+                height: 20px;
+                display: block;
+                border-radius: 50%;
+                margin-right: 15px;
+                position: relative;
+                z-index: 99;
+              }
+              .red-dot {
+                border: 1px solid #e71d32;
+                background-color: #e71d32;
+                width: 20px;
+                height: 20px;
+                display: block;
+                border-radius: 50%;
+                margin-right: 15px;
+                position: relative;
+                z-index: 99;
+              }
+              .yellow-dot {
+                border: 1px solid #efc100;
+                background-color: #efc100;
+                width: 20px;
+                height: 20px;
+                display: block;
+                border-radius: 50%;
+                margin-right: 15px;
+                position: relative;
+                z-index: 99;
+              }
+              .green-dot {
+                border: 1px solid #00b4a0;
+                background-color: #00b4a0;
+                width: 20px;
+                height: 20px;
+                display: block;
+                border-radius: 50%;
+                margin-right: 15px;
+                position: relative;
+                z-index: 99;
+              }
+            }
+          }
+        }
+        b {
+          font-weight: 500;
+          font-size: 18px;
+          color: #152935;
+        }
+      }
+      .card-body {
+        .send-icon {
+          padding: 3px;
+        }
+        padding: 20px 54px 20px 40px;
+        h4 {
+          font-weight: 500;
+          font-size: 18px;
+          text-transform: capitalize;
+          color: #152935;
+          margin-bottom: 8px;
+        }
+        .profile-img {
+          margin-right: 37px;
+        }
+        .profile-detail {
+          width: 100%;
+          b {
+            font-weight: 500;
+            font-size: 14px;
+            color: #152935;
+            margin-bottom: 4px;
+          }
+          p {
+            font-size: 14px;
+            color: #5a6872;
+            font-weight: normal;
+          }
+          .browse-button {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            .button {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              background: rgba(61, 112, 178, 0.1);
+              padding: 7px 15px;
+              margin: 25px 16px 25px 0;
+              width: 30%;
+              p {
+                margin: 0;
+                color: #152934;
+                font-size: 12px;
+              }
+            }
+            .btn-primary {
+              background-color: transparent;
+              color: #3d70b2;
+              border-color: #3d70b2;
+              border-radius: 0;
+              border-width: 2px;
+              padding: 7px 29px;
+              font-size: 14px;
+            }
+          }
+        }
+        .title {
+          b {
+            color: #152935;
+            font-size: 18px;
+            font-weight: 500;
+            padding-bottom: 20px;
+            display: block;
+          }
+        }
+        .profile-info {
+          border: 1px solid #dfe3e6;
+          padding: 29px 36px;
+          margin-bottom: 30px;
+        }
+        .send-icon {
+          span {
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: 20px;
+          }
+        }
+        .log-section {
+          position: relative;
+          .form-control {
+            background: rgba(61, 112, 178, 0.1);
+            width: 125px;
+            border-radius: 0;
+            border: none;
+            height: 30px;
+          }
+        }
+      }
+      .pass-info {
+        p {
+          color: #5a6872;
+          font-weight: normal;
+          font-size: 14px;
+        }
+      }
+
+      .btn-common {
+        padding: 7px 12px;
+        font-size: 14px;
+        margin: 5px 0;
+      }
+    }
+    .delete-button {
+      background: #e71d32;
+      border: 1px solid #dfe3e6;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+      height: 72px;
+      color: #ffffff;
+      font-size: 14px;
+    }
+  }
+}
+.rightcontent .middle .card .date-section .details table .line {
+  position: relative;
+}
+.rightcontent .middle .card .date-section .details table .line::before {
+  position: absolute;
+  content: "";
+  border-left: 1px solid #5596e6;
+  width: 8px;
+  height: 100%;
+  left: 9px;
+  z-index: 1;
+  top: 0;
+}
+.delete-model {
+  .modal-dialog {
+    max-width: 500px;
+    .popup-content {
+      padding: 48px 48px 10px 48px;
+      b {
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 35px;
+        color: #48555f;
+        margin-bottom: 17px;
+        display: block;
+      }
+    }
+    .modal-body {
+      padding: 0;
+    }
+    .form-group {
+      padding: 0 48px 84px 48px;
+    }
+    .btn-primary,
+    .btn-secondary {
+      padding: 9px 19px;
+    }
+  }
+}
+.change-password {
+  .modal-dialog {
+    max-width: 500px;
+    .popup-content {
+      padding: 24px 53px;
+    }
+    .form-group {
+      padding: 0 53px;
+    }
+    .modal-body {
+      padding: 0;
+    }
+    .custom-modal-footer {
+      margin-top: 48px;
+    }
+  }
+}
+.search-box {
+  span {
+    position: absolute;
+    left: 7px;
+    top: 6px;
+  }
+  position: relative;
+  input {
+    padding-left: 30px;
+    min-width: 360px;
+  }
+}
